@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.container h1{
+    color: #A82C37;
+    text-align: center;
+}
+.inputField span{
+    color: #092955;
+    font-weight: bold;
+    font-size: 18px;
+}
+.inputField input{
+    width: 50px;
+    padding: 5px 0;
+    margin-left:10px ;
+}
+.inputField{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.inputField button{
+    padding: 5px 20px;
+    color: #A82C37;
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+.inputField button:active{
+    transform: scale(0.95);
+}
